@@ -5,7 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="fforw"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -25,8 +25,8 @@ ZSH_THEME="robbyrussell"
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
 
-# Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
+# Uncomment following line if you want red dots to be displayed while waiting for completion
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -78,3 +78,13 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias lsd="ls -rtl"
+alias lss="ls -Slr"
+alias clr="clear ; echo ; fortune -a ; echo"
+alias pysh="ipython -p sh"
+alias os="cd $HOME/workspace/opensaga-core/"
+alias oss="cd $HOME/workspace/opensaga-selenium/"
+alias osw="cd $HOME/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/opensaga-core-test/WEB-INF"
+alias ost="cd $HOME/workspace/opensaga-core-test"
+
