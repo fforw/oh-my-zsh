@@ -88,3 +88,5 @@ alias oss="cd $HOME/workspace/opensaga-selenium/"
 alias osw="cd $HOME/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/opensaga-core-test/WEB-INF"
 alias ost="cd $HOME/workspace/opensaga-core-test"
 
+# switch off auto correct
+unsetopt correct_all
