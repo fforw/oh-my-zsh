@@ -90,3 +90,17 @@ alias ost="cd $HOME/workspace/opensaga-core-test"
 
 # switch off auto correct
 unsetopt correct_all
+
+#enable 256 color mode
+export set TERM=xterm-256color
+
+# oh yes! auto cd
+setopt AUTO_CD
+
+export set EDITOR=vim
+
+if [ -e $HOME/.zshrc.local ]; then 
+	source $HOME/.zshrc.local
+fi
+
+
