@@ -99,8 +99,10 @@ setopt AUTO_CD
 
 export set EDITOR=vim
 
+export set PAGER=less
+export set LESS="-iMSx4 -FX"
+
 if [ -e $HOME/.zshrc.local ]; then 
 	source $HOME/.zshrc.local
 fi
-
 
