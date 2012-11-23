@@ -85,7 +85,8 @@ alias clr="clear ; echo ; fortune -a ; echo"
 alias pysh="ipython -p sh"
 alias os="cd $HOME/workspace/opensaga-core/"
 alias oss="cd $HOME/workspace/opensaga-selenium/"
-alias osw="cd $HOME/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/opensaga-core-test/WEB-INF"
+alias osw="cd $HOME/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp?/wtpwebapps/opensaga-core/WEB-INF"
+alias ostw="cd $HOME/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp?/wtpwebapps/opensaga-core-test/WEB-INF"
 alias ost="cd $HOME/workspace/opensaga-core-test"
 
 # switch off auto correct
@@ -100,7 +101,8 @@ setopt AUTO_CD
 export set EDITOR=vim
 
 export set PAGER=less
-export set LESS="-iMSx4 -FX"
+#export set LESS="-iMSx4 -FX"
+export LESS="-RSM~gIswFX"
 
 if [ -e $HOME/.zshrc.local ]; then 
 	source $HOME/.zshrc.local
