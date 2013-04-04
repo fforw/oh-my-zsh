@@ -88,6 +88,9 @@ alias oss="cd $HOME/workspace/opensaga-selenium/"
 alias osw="cd $HOME/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp?/wtpwebapps/opensaga-core/WEB-INF"
 alias ostw="cd $HOME/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp?/wtpwebapps/opensaga-core-test/WEB-INF"
 alias ost="cd $HOME/workspace/opensaga-core-test"
+alias qsw="cd $HOME/workspace/opensaga-core/src/main/webapp/WEB-INF/resources/extensions/qs-web"
+
+alias qswdb="PGPASSWORD=quincy psql -h os-db01 qs-web -U postgres"
 
 # switch off auto correct
 unsetopt correct_all
