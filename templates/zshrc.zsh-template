@@ -86,6 +86,7 @@ alias pysh="ipython -p sh"
 alias gs="git status"
 
 alias os="cd $HOME/workspace/opensaga-core/"
+alias nge="cd $HOME/ideaprojects/ng-editor/"
 alias oss="cd $HOME/workspace/opensaga-selenium/"
 alias osw="cd $HOME/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp?/wtpwebapps/opensaga-core/WEB-INF"
 alias ostw="cd $HOME/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp?/wtpwebapps/opensaga-core-test/WEB-INF"
