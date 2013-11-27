@@ -83,7 +83,7 @@ alias lsd="ls -rtl"
 alias lss="ls -Slr"
 alias clr="clear ; echo ; fortune -a ; echo"
 alias pysh="ipython -p sh"
-alias gs="git status"
+alias gs="git status --branch --short"
 
 alias os="cd $HOME/workspace/opensaga-core/"
 alias ose="cd $HOME/ideaprojects/os-editor/"
@@ -94,7 +94,7 @@ alias ost="cd $HOME/workspace/opensaga-core-test"
 alias ose="cd $HOME/ideaprojects/os-editor/"
 
 alias qsw="cd $HOME/workspace/opensaga-core/src/main/webapp/WEB-INF/resources/extensions/qs-web"
-alias qswdb="PGPASSWORD=quincy psql -h os-db01 qs-web -U postgres"
+alias j8env=". $HOME/bin/j8env.sh"
 
 # switch off auto correct
 unsetopt correct_all
