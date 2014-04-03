@@ -92,7 +92,7 @@ alias osw="cd $HOME/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp
 alias ostw="cd $HOME/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp?/wtpwebapps/opensaga-core-test/WEB-INF"
 alias ost="cd $HOME/workspace/opensaga-core-test"
 alias ose="cd $HOME/ideaprojects/os-editor/"
-alias koli="cd $HOME/ideaprojects/kolibri/"
+alias klb="cd $HOME/ideaprojects/kolibri/"
 
 alias qsw="cd $HOME/workspace/opensaga-core/src/main/webapp/WEB-INF/resources/extensions/qs-web"
 alias j8env=". $HOME/bin/j8env.sh"
