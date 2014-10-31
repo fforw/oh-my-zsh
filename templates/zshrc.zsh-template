@@ -83,7 +83,7 @@ alias lsd="ls -rtl"
 alias lss="ls -Slr"
 alias clr="clear ; echo ; fortune -a ; echo"
 alias pysh="ipython -p sh"
-alias gs="git status --branch --short"
+alias gs="LANG=C git status"
 
 alias os="cd $HOME/workspace/opensaga-core/"
 alias ose="cd $HOME/ideaprojects/os-editor/"
