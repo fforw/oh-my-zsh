@@ -1,1 +1,0 @@
-This is just my configuration fork for oh-my-zsh.
