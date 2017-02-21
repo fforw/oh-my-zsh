@@ -116,6 +116,8 @@ export set PAGER=less
 #export set LESS="-iMSx4 -FX"
 export LESS="-RSM~gIswFX"
 
+setopt HIST_IGNORE_SPACE
+
 if [ -e $HOME/.zshrc.local ]; then 
 	source $HOME/.zshrc.local
 fi
